@@ -1,0 +1,77 @@
+﻿
+body {
+    height: 100vh;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+button, input {
+    border: 3px solid cornflowerblue;
+    background-color: black;
+    color: cornflowerblue;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+input {
+    color: white;
+    padding: 6px;
+    cursor: unset;
+    width: 300px;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+  
+
+#tableWarp {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+    table td {
+        font-size: 80px;
+        text-align: center;
+        color: cornflowerblue;
+        border: 5px solid white;
+        height: 150px;
+        width: 150px;
+    }
+
+    table tr:first-child td {
+        border-top: 0;
+    }
+
+    table tr td:first-child {
+        border-left: 0;
+    }
+
+    table tr:last-child td {
+        border-bottom: 0;
+    }
+
+    table tr td:last-child {
+        border-right: 0;
+    }
+
+#turnPlayer {
+    font-size: 40px;
+}
